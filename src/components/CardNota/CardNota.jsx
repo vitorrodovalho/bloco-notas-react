@@ -1,8 +1,9 @@
 import React from "react";
+import "./estilo.css";
 
 function CardNota(){
     return(
-        <section>
+        <section className="card-nota">
             <header>
                 <h3>Título</h3>
             </header>
